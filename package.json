@@ -1,0 +1,22 @@
+{
+  "name": "kyctermloans",
+  "version": "1.0.0",
+  "description": "KYC'd decentralized money market with term loans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bschreck/kyctermloans.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bschreck/kyctermloans/issues"
+  },
+  "homepage": "https://github.com/bschreck/kyctermloans#readme",
+  "dependencies": {
+    "jso": "^4.1.1"
+  }
+}
