@@ -8,7 +8,7 @@ export var authenticateFn = function() {
       response_type: "code",
       client_id: "7eebc9df955a32bb612567e2e4ed4e14f6d1691ffe9f43ccc5e5f4866c862234",
       client_secret: clientSecret,
-      redirect_uri: "http://benschreck.com/kyctermloans",
+      redirect_uri: "https://benschreck.com/kyctermloans/dist/index.html",
       authorization: "https://www.coinbase.com/oauth/authorize",
       scopes: { request: ["wallet:user:read"]}
     };
