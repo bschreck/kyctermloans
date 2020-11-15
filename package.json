@@ -2,9 +2,10 @@
   "name": "kyctermloans",
   "version": "1.0.0",
   "description": "KYC'd decentralized money market with term loans",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/bschreck/kyctermloans#readme",
   "dependencies": {
-    "jso": "^4.1.1"
+    "core-js": "^2.6.11",
+    "jquery": "^3.5.1",
+    "jso": "^4.1.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
   }
 }
