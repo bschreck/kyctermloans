@@ -13,19 +13,23 @@ export var authenticateFn = function() {
       scopes: { request: ["wallet:user:read"]}
     };
     let client = new JSO(opts);
-    client.callback();
-    let token = client.getToken(opts);
-    if (token !== null) {
-      console.log("I got the token: ", token)
-    }
+//};
+//export var fetchUserData = function() {
+    //let token = client.getToken(opts);
+    //if (token !== null) {
+    //  console.log("I got the token: ", token)
+    //}
     //client.wipeTokens();
-    let f = new Fetcher(client)
-    let url = 'https://api.coinbase.com/v2/user'
-    f.fetch(url, {'token': token})
-      .then((data) => {
-        console.log("I got protected json data from the API", data)
-      })
-      .catch((err) => {
-        console.error("Error from fetcher", err)
-      })
+  //
+  //
+    //client.callback();
+    //let f = new Fetcher(client)
+    //let url = 'https://api.coinbase.com/v2/user'
+    //f.fetch(url, {})
+    //  .then((data) => {
+    //    console.log("I got protected json data from the API", data)
+    //  })
+    //  .catch((err) => {
+    //    console.error("Error from fetcher", err)
+    //  })
 };
