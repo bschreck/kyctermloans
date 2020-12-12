@@ -1,0 +1,15 @@
+{
+  "package_name": "kyctermloans",
+  "version": "0.0.1",
+  "description": "",
+  "authors": [
+    "Ben Schreck <benjaminschreck93@gmail.com>"
+  ],
+  "keywords": [
+    "ethereum"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  },
+  "license": "MIT"
+}
